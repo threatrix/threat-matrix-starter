@@ -1,4 +1,26 @@
 /*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/Shreeraj31/magento2_paypal/releases/tag/master-abf35e4
+*    Source File: ext-tree.js
+*    
+*    Copyrights:
+*      copyright(c) 2006-2007, ext js, llc
+*    
+*    Licenses:
+*      Open Software License 3.0
+*      SPDXId: OSL-3.0
+*    
+*      Academic Free License v3.0
+*      SPDXId: AFL-3.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+/*
  * Ext JS Library 1.0.1
  * Copyright(c) 2006-2007, Ext JS, LLC.
  * licensing@extjs.com
