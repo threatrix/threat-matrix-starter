@@ -1,3 +1,30 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/AlexBlackRu/magento23/releases/tag/master-c98b3a7
+*    Source File: row.js
+*    
+*    Copyrights:
+*      copyright (c) <year>  <name of author>
+*      copyright (c) 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modificati
+*      copyright �� 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modificatio
+*      copyright (c) 2007, parakey inc
+*      copyright 2017 smartbear software
+*      copyright (c) 1991, 1999 free software foundation, inc
+*    
+*    Licenses:
+*      Open Software License 3.0
+*      SPDXId: OSL-3.0
+*    
+*      Academic Free License v3.0
+*      SPDXId: AFL-3.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 tinyMCEPopup.requireLangPack();
 
 function init() {
