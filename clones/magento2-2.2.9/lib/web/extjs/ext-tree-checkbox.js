@@ -1,3 +1,107 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/thangtran29/magento24cicd/releases/tag/master-61527b7
+*    Source File: ext-tree-checkbox.js
+*    
+*    Copyrights:
+*      copyright (c) sebastian bergmann <sebastian@phpunit.de>
+*      copyright 2020 (c) jeroen van den enden
+*      copyright (c) 2020-present [open-source contributors](https://github.com/php-webdriver/php-webdriver/graphs/contributors)
+*      copyright (c) 2015 aaron scherer, tobias nyholm
+*      copyright (c) 2017 arne blankerts <arne@blankerts.de> and contributors
+*      copyright (c) 2016 arne blankerts <arne@blankerts.de>, sebastian heuer <sebastian@phpeople.de>, sebastian bergmann <sebastia
+*      copyright (c) 2017, ben scholzen 'dasprid
+*      copyright (c) 2014 bernhard schussek
+*      copyright (c) 2017 braintree, a division of paypal, inc
+*      copyright (c) 2013, colin mollenhour
+*      copyright  copyright (c) 2012 colin mollenhour (http://colin.mollenhour.com)
+*      copyright (c) 2011 colin mollenhour <colin@mollenhour.com>
+*      copyright (c) 2015 composer
+*      (c) 2013 david desberg <david@daviddesberg.com>
+*      copyright (c) 2016 dotdigital group plc
+*      copyright (c) 2007 free software foundation, inc. <http://fsf.org/>
+*      copyright (c) 2007 free software foundation, inc. <http://fsf.org/> everyone is permitted to copy and distribute verbatim co
+*      copyright (c) 2019, google inc
+*      copyright (c) 2013 jesse g. donat
+*      copyright (c) 2018 johannes m. schmitt
+*      copyright (c) 2009 justin poliey <jdp34@njit.edu>
+*      copyright (c) 2020 laminas project a series of lf projects, llc
+*      copyright (c) 2020 laminas project a series of lf projects, llc. (https://getlaminas.org/)
+*      copyright (c) 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modificati
+*      copyright �� 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modificatio
+*      copyright � 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modification
+*      copyright (c) 2008, manuel pichler
+*      copyright (c) 2015 maxim kott
+*      copyright (c) 2011 michael bodnarchuk and contributors
+*      copyright (c) 2014 michael dowling, https://github.com/mtdowling
+*      copyright (c) 2010 mike van riel
+*      copyright (c) 2015 my c-labs
+*      copyright (c) 2013 my c-sense
+*      copyright (c) 2016 ond��ej mirtes
+*      copyright treaty adopted on 20 december 1996, or similar laws prohibiting or restricting circumvention of such measures
+*      copyright (c) 2007, parakey inc
+*      copyright (c) 2016 php framework interoperability group
+*      copyright (c) 2015 phpdocumentor
+*      (c) 2013 pieter hordijk <info@pieterhordijk.com>
+*      copyright (c) 2014 ralph khattar
+*      copyright (c) 2009, robert hafner
+*      copyright 2017 smartbear software
+*      copyright (c) 2012, squiz pty ltd (abn 77 084 670 600)
+*      copyright (c) 2014 steve thomas
+*      copyright treaty of 1996, the wipo performances and phonograms treaty of 1996 and the universal copyright convention (as rev
+*      copyright (c) 2018 thecodingmachine
+*      copyright (c) 2014 trueserver b.v
+*      copyright (c) 2013, vance lucas
+*      copyright (c) 2015-present, webonyx, llc
+*      copyright 2014 yandex llc
+*      copyright (c) 2017 yaroslav lukyanov
+*      copyright �� 2018 yotpo. all rights reserved
+*      copyright (c) 1991, 1999 free software foundation, inc
+*      copyright (c) 2010-2012 arne blankerts <arne@blankerts.de>
+*      copyright (c) 1999 - 2012 the php group. all rights reserved
+*      copyright (c) 2011-2013, benjamin eberlei
+*      copyright (c) 2011-2013 konstantin kudryashov <ever.zet@gmail.com>
+*      copyright 2010-2014 amazon.com, inc. or its affiliates. all rights reserved
+*      copyright (c) 2013-2014 christian riesen
+*      copyright (c) 2007-2015, frank kleine
+*      copyright (c) 2010-2015 justin hileman
+*      copyright (c) 2005-2015, zend technologies usa, inc
+*      copyright (c) 2015 - 2016 aaron scherer
+*      copyright (c) 2013 container-interop
+*      copyright 2013-2016 elasticsearch
+*      copyright (c) 2014-2016 florent morselli
+*      copyright (c) 2012-2016 jan sorgalla
+*      copyright (c) 2011-2016 jordi boggiano
+*      copyright (c) 2016-2017 arne blankerts <arne@blankerts.de>, sebastian heuer <sebastian@phpeople.de> and contributors
+*      copyright (c) 2012-2018 ben ramsey <ben@benramsey.com>
+*      copyright (c) 2016-2018 dealerdirect b.v
+*      copyright (c) 2006-2018 doctrine project
+*      copyright (c) 2014 michael dowling, https://github.com/mtdowling <mtdowling@gmail.com>
+*      copyright (c) 2015 paragon initiative enterprises
+*      copyright (c) 2008-2018 pelago
+*      copyright (c) 2016
+*      copyright (c) 2018-2019 fabien potencier and trevor rowbotham <trevor.rowbotham@pm.me>
+*      copyright (c) 2013-2019 frank de jonge
+*      copyright (c) 2011-2019 terrafrost and other contributors
+*      copyright (c) 2004-2020 fabien potencier
+*      copyright (c) 2004-2020 facebook
+*      copyright (c) 2019, laminas foundation
+*      copyright (c) 2009-2020, sebastian bergmann <sebastian@phpunit.de>
+*    
+*    Licenses:
+*      Open Software License 3.0
+*      SPDXId: OSL-3.0
+*    
+*      Academic Free License v3.0
+*      SPDXId: AFL-3.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 /**
  * Retrieve an array of ids of checked nodes
  * @return {Array} array of ids of checked nodes
