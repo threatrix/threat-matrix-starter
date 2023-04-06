@@ -1,4 +1,24 @@
 /*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Project: https://spring.io/projects/spring-framework
+*    Release: https://github.com/spring-projects/spring-framework/releases/tag/v5.2.20.RELEASE
+*    Source File: AbstractClassGenerator.java
+*    
+*    Copyrights:
+*      copyright 2003,2004 the apache software foundation
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+/*
  * Copyright 2003,2004 The Apache Software Foundation
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
