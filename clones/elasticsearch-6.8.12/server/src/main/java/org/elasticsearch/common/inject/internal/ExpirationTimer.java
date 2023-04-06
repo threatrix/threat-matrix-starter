@@ -1,4 +1,24 @@
 /*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Project: https://www.elastic.co/blog/deploying-elasticsearch-200-with-chef
+*    Release: https://github.com/elastic/cookbook-elasticsearch/releases/tag/v0.19.8
+*    Source File: ExpirationTimer.java
+*    
+*    Copyrights:
+*      copyright (c) 2009 google inc
+*    
+*    Licenses:
+*      Apache License 2.0
+*      SPDXId: Apache-2.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+/*
  * Copyright (C) 2009 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
