@@ -1,4 +1,25 @@
 /*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/micabressan/trabajo_final/releases/tag/master-58a2f34
+*    Source File: ef7fc66e71ec44cbb3aae68dc3f9ceab.Java
+*    
+*    Copyrights:
+*      copyright (c) {year}  {fullname
+*      copyright (c) 2007 free software foundation, inc. <http://fsf.org/>
+*      copyright treaty adopted on 20 december 1996, or
+*    
+*    Licenses:
+*      GNU General Public License v3.0 only
+*      SPDXId: GPL-3.0-only
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
+/*
  * Licensed to Elasticsearch under one or more contributor
  * license agreements. See the NOTICE file distributed with
  * this work for additional information regarding copyright
