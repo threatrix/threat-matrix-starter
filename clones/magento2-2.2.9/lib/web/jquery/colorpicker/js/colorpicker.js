@@ -1,3 +1,71 @@
+/*
+*    ------ BEGIN LICENSE ATTRIBUTION ------
+*    
+*    Portions of this file have been appropriated or derived from the following project(s) and therefore require attribution to the original licenses and authors.
+*    
+*    Release: https://github.com/InesYoussef/magento-react/releases/tag/master-5c49639
+*    Source File: colorpicker.js
+*    
+*    Copyrights:
+*      copyright © magento, inc. all rights reserved
+*      (c) 2015
+*      copyright sign"],["174","registered sign"],["8482","trade mark sign"],["8240","per mille sign"],["181","micro sign"],["183",
+*      copyright (c) 2012: scott jehl, paul irish, nicholas zakas, david knight. dual mit/bsd license
+*      copyright (c) 2012: scott jehl. dual mit/bsd license
+*      (c);va(a,b,d,c,e,f);var m=c.$$hasnativevalidators&&"range"===b[0].type,p=m?0:void 0,n=m?100:void 0,r=m?1:void 0,q=b[0].valid
+*      (c),e]):t.remove(s));m(b,a,c,e);d.$$phase||d.$apply()}function m(a,c,d,e){c=math.max(c,0);(200<=c&&300>c?p.resolve:p.reject)
+*      copyright (c) 2007 andrew tetlaw
+*      copyright 2012, authors.txt (http://jqueryui.com/about)
+*      copyright (c) 2012 barnesandnoble.com, llc, donavon west, and domenic denicola * license: mit
+*      copyright 12th may 2003, by stephen chapman, felgall pty ltd
+*      (c)?c:9===ca?"":null;a.prop("value",e);d.$set("value",c)}return{restrict:"a",priority:100,compile:function(b,d){return fh.te
+*      copyright (c) 2010 conrad irwin <conrad@rapportive.com> mit license
+*      copyright (c) 2016 gias kay lee | mit license */!function(a,b){"use strict";"function"==typeof define&&define.amd?define(["a
+*      copyright (c) 2013 gias kay lee | mit license */"use strict";!function(){function a(a){return["$rootscope","$window",functio
+*      © 2014 greg bergé | license mit
+*      copyright (c) 2010 ivan bozhanov (vakata.com)
+*      copyright 2010, john resig
+*      copyright (c) 2006 john resig, yehuda katz, jï¿½ã¶rn zaefferer, paul mclanahan
+*      copyright 2013 jquery foundation and other contributors
+*      copyright 2014 jquery foundation and other contributors; licensed mit
+*      copyright (c) 2012 jörn zaefferer
+*      copyright 2011, klaus hartl
+*      copyright (c) 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modificati
+*      copyright © 2005 lawrence rosen. permission is granted to copy, distribute, or communicate this license without modification
+*      copyright (c) 2008 mkmanning mit license
+*      copyright (c) 2014 petka antonov * license: mit
+*      (c) 2014 rob wu <rob@robwu.nl>
+*      copyright 2011 robert dallas gray. all rights reserved
+*      copyright 2012, sebastian tschan
+*      copyright (c) 2006 sébastien gruhier (http://xilinus.com, http://itseb.com)
+*      copyright 2009, the dojo foundation
+*      copyright (c) 2014 the polymer project authors. all rights reserved
+*      copyright (c) 2013 trent richardson; licensed mit
+*      copyright (c) 1991, 1999 free software foundation, inc
+*      copyright(c) 2006-2007, ext js, llc
+*      copyright (c) 2005-2008 thomas fuchs (http://script.aculo.us, http://mir.aculo.us)
+*      copyright (c) 2006-2009 mika tuupola, dylan verheul
+*      (c) 2005-2010 sam stephenson
+*      copyright 2005, 2014 jquery foundation, inc. and other contributors
+*      copyright (c) 2010-2012, the dojo foundation all rights reserved
+*      copyright 2011-2014 twitter, inc
+*      copyright (c) 2009-2015, alexis sellier <self@cloudhead.net>
+*      (c) 2009-2015 jeremy ashkenas, documentcloud and investigative reporters & editors
+*      copyright © 2013-2017 magento, inc. all rights reserved
+*      (c) 2010-2018 google, inc. http://angularjs.org
+*      copyright copyright (c) 2005-2018 zend technologies usa inc. (http://www.zend.com)
+*    
+*    Licenses:
+*      Open Software License 3.0
+*      SPDXId: OSL-3.0
+*    
+*      Academic Free License v3.0
+*      SPDXId: AFL-3.0
+*    
+*    Auto-attribution by Threatrix, Inc.
+*    
+*    ------ END LICENSE ATTRIBUTION ------
+*/
 /**
  *
  * Color picker
